@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #FAFAFA;
+  color: #333333;
+}
+.top-bar {
+  width: 100%;
+  height: 43px;
+  background-color: #006F9E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.top-bar a {
+  color: #FFFFFF;
+  text-decoration: underline;
+  margin-left: 5px;
+}
+.main-header {
+  width: 100%;
+  height: 75px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #EAEAEA;
+}
+
+.header-container {
+  width: 1230px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-area .logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #0c1a24;
+}
+
+.logo-text {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #666666;
+  margin: 0 16px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #006F9E;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn-signin {
+  text-decoration: none;
+  color: #006F9E;
+  font-size: 15px;
+  font-weight: 500;
+}
+.btn-demo {
+  display: inline-block;
+  background-color: #006F9E;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 12px 24px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.btn-demo:hover {
+  background-color: #00567A;
+}
+.hero-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 80px 0; 
+}
+
+.hero-container {
+  width: 1130px;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 525px 1fr; 
+  gap: 60px;
+  align-items: center;
+}
+.hero-content {
+  width: 525px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-content h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 54px;
+  line-height: 1.15;
+  color: #1A1A1A;
+  margin-bottom: 24px;
+  font-weight: 500;
+}
+
+.hero-description {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555555;
+  margin-bottom: 36px;
+}
+
+.hero-cta {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.btn-learn {
+  text-decoration: none;
+  color: #006F9E;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.btn-learn .arrow {
+  margin-left: 6px;
+  transition: transform 0.2s ease;
+}
+
+.btn-learn:hover .arrow {
+  transform: translateX(4px);
+}
+.hero-image-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.hero-image-wrapper img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
