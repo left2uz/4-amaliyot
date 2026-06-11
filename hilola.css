@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1255px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/* inter-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v20-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-500 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/inter-v20-latin-500.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-600 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/inter-v20-latin-600.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-700 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inter-v20-latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-800 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/inter-v20-latin-800.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-900 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/inter-v20-latin-900.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* trusted  */
+
+.trusted {
+    padding: 80px 0 60px;
+    text-align: center;
+}
+
+.trusted h3 {
+    margin-bottom: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 37.5px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #1F1F1F;
+}
+
+.brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+/* cards  */
+
+.cards {
+    padding: 80px 0 60px;
+}
+
+.container {
+    padding: 40px 35px;
+}
+
+.cards-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.card-yellow {
+    width: 355px;
+    background: #FAEA73;
+}
+
+.cards img {
+    margin: 32px 268px 8px 32px;
+    margin-top: 37px;
+    margin-bottom: 12px;
+}
+
+.cards h3 {
+    padding: 8px 80px 11px 32px;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 25px;
+    line-height: 31.25px;
+    letter-spacing: 0.2px;
+    color: #1F1F1F;
+}
+
+.cards p {
+    padding: 11px 32px 40px 32px;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #1F1F1F;
+}
+
+.card-blue {
+    width: 355px;
+    background: #CCEFF6;
+}
+
+.card-blue h3 {
+    padding: 8px 60px 11px 32px;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 25px;
+    line-height: 31.25px;
+    letter-spacing: 0.2px;
+    color: #1F1F1F;
+}
+
+.card-pink {
+    width: 355px;
+    background: #F7CEDC;
+}
+
+/* section  */
+
+.care {
+    padding: 80px 0 60px;
+}
+
+.care-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.care-left {
+    max-width: 650px;
+}
+
+details summary {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.text {
+    max-width: 485px;
+}
+
+details {
+    border-bottom: 1px solid #add;
+    padding: 18px 0;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+summary {
+    cursor: pointer;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 21px;
+    line-height: 25.2px;
+    letter-spacing: 0.2px;
+    color: #1F1F1F;
+}
+
+details p {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #1F1F1F;
+}
+
+.care-title h2 {
+    max-width: 650px;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 39px;
+    line-height: 50.4px;
+    letter-spacing: 0.5px;
+    color: #1F1F1F;
+}
+
+/* about  */
+
+.about {
+    padding: 80px 0 60px;
+}
+
+.about-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.about-cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.about-card h2 {
+    max-width: 300px;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 41px;
+    line-height: 50.4px;
+    letter-spacing: 0.5px;
+    color: #1F1F1F;
+}
+
+.about-card img {
+    margin-bottom: 15px;
+}
+
+.about-card h4 {
+    margin-bottom: 11px;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 25px;
+    line-height: 31.25px;
+    letter-spacing: 0.2px;
+    color: #1F1F1F;
+}
+
+.about-card p {
+    max-width: 223px;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #1F1F1F;
+}
